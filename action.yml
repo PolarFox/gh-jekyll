@@ -1,0 +1,6 @@
+# action.yml
+name: "Build Jekyll"
+description: "Build Jekyll site"
+runs:
+  using: "docker"
+  image: "Dockerfile"
